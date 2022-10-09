@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+    color: rgb(235, 219, 219);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+html {
+    height: 100%;
+}
+body{
+    background:  rgba(0,0,0,1);
+}
+/* Login style */
+.wrapper h2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.btn{
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    width: 280px;
+    height: 70px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 1, 187);
+    font-size: 30px;
+}
+.form-group input{
+    outline: none;
+}
+input, textarea {
+    background-color: #000000;
+}
+.btn-primary{
+    background: rgb(94,0,255);
+    background: linear-gradient(270deg, rgba(94,0,255,0.8855917366946778) 15%, rgba(255,0,219,0.8799894957983193) 83%);
+}
+.btn-primary:hover{
+    background: rgb(94,0,255);
+    background: linear-gradient(270deg, rgba(94,0,255,1) 15%, rgba(255,0,219,1) 83%);
+}
+/* go to complain btn  */
+.goToComplainForm{
+    margin-top: 140px;
+    padding-top: 14px;
+    background: rgb(255,0,219);
+    background: linear-gradient(270deg, rgba(255,0,219,0.8491771708683473) 6%, rgba(255,115,0,0.8491771708683473) 42%);
+}
+.goToComplainForm:hover{
+    background: rgb(255,0,219);
+    background: linear-gradient(270deg, rgba(255,0,219,1) 6%, rgba(255,115,0,1) 42%);
+}
+.goToComplainForm a{
+    text-decoration: none;
+}
+/* random small text */
+.sign{
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.error{
+    color: red;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.errorMsg1{
+    top: 120px;
+}
+.errorMsg2{
+    top: 135px;
+}
+.errorMsg3{
+    top: 135px;
+}
+/* register.php */
+.registerSign{
+    margin-bottom: 5px;
+}
+.errorRegisterForm{
+    color: red;
+    display: block;
+    text-align: center;
+}
+/* COMPLAIN FORM */
+.textarea-group{
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 1, 187);
+    font-size: 25px;
+}
+.errorMsg4{
+    top: 135px;
+    color: rgb(0, 253, 30);
+}
+/* login btn color */
+.goToLogin{
+    margin-top: 10px;
+    background: rgb(94,0,255);
+    background: linear-gradient(270deg, rgba(94,0,255,0.8855917366946778) 15%, rgba(255,0,219,0.8799894957983193) 83%);
+}
+.goToLogin:hover{
+    background: rgb(94,0,255);
+    background: linear-gradient(270deg, rgba(94,0,255,1) 15%, rgba(255,0,219,1) 83%);
+}
+/* Submit btn color  */
+.goToSubmit{
+    margin-top: 10px;
+    background: rgb(51,219,16);
+    background: linear-gradient(270deg, rgba(51,219,16,0.8491771708683473) 4%, rgba(223,10,207,0.8267682072829132) 74%);
+}
+.goToSubmit:hover{
+    background: rgb(51,219,16);
+    background: linear-gradient(270deg, rgba(51,219,16,1) 4%, rgba(223,10,207,1) 74%);
+}
+/* welcome.php */
+.hide{
+    display: none;
+}
+.welcomeSign{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+/* comments list */
+.commentName{
+    font-size: 26px;
+    display: block;
+    text-align: center;
+    color: pink;
+}
+.commentText{
+    display: block;
+    text-align: center;
+}
+
+/* main page */
+.mainPage{
+    color: antiquewhite;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+}	
